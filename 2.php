@@ -22,6 +22,7 @@ foreach ($fruits as $fruits) {
     echo "\n";
 }
 
+
 /* for文の始めの値を定義する */
 $start = 1;
 /* for文の終わりの値を定義する */
