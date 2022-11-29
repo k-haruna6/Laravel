@@ -1,7 +1,7 @@
 <?php
 //Laravel03
 $name = "haruna";
-if ($name = "haruna") {
+if ($name == "haruna") {
     echo "私はharunaです";
 } else {
     echo "harunaではありません";
@@ -16,8 +16,8 @@ for ($i = 0; $i <= 10000; $i++) {
     echo $total;
     echo "\n";
 
-$fruits = array("りんご","梨","バナナ","みかん","いちご");
-foreach ($fruits as $fruits) {
+$fruit = array("りんご","梨","バナナ","みかん","いちご");
+foreach ($fruit as $fruits) {
     echo $fruits;
     echo "\n";
 }
